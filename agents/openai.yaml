@@ -1,0 +1,6 @@
+interface:
+  display_name: "Machine Clean Up"
+  short_description: "Close orphaned and duplicate agent MCP processes"
+  default_prompt: "Use $machine-clean-up to close orphaned and duplicate Codex, Claude Code, OpenCode, and MCP processes, then report what was freed."
+policy:
+  allow_implicit_invocation: true
